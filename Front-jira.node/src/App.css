@@ -1,4 +1,25 @@
+.content_wrapper {
+    display : flex;
+    justify-content: space-around;
+}
+
+
+  .titre_container {
+    width: fit-content;
+    border-bottom: 1 px solid black;
+    & h1 {
+        align-items: center;
+    }
+  }
+
+  
+
 .form-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.form_table {
+    align-items: center;
 }

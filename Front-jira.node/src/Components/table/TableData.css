@@ -1,0 +1,57 @@
+.issue-table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+
+.issue-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.issue-table thead {
+  background-color: #f2f2f2;
+}
+
+.issue-table th,
+.issue-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.issue-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #000000;
+  color: white;
+}
+
+
+
+.issue-table tr:hover {
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 450px) {
+  .issue-table-container {
+    overflow-x: auto;
+  }
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue; ;
+}
